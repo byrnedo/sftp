@@ -15,8 +15,6 @@ COPY sshd_config /etc/ssh/sshd_config
 COPY entrypoint /
 COPY README.md /
 
-VOLUME /etc/ssh
-
 EXPOSE 22
 
 ENTRYPOINT ["/entrypoint"]
